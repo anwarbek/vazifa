@@ -4,16 +4,60 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Project</title>
-
+  <title>Setting up the washing machine</title>
+  
   <!-- Stylesheets -->
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-   
   
-
-<script src="js/main.js"></script>
+  <main class="main">
+    <div class="container">
+      <div class="washing">
+        <ul class="setting-washing">
+          <li class="setting-washing-fabric-type">
+            <a class="fabric-type-link" href="#">Synthetic</a>
+          </li>
+          <li class="setting-washing-fabric-type">
+            <a class="fabric-type-link" href="#">Wool</a>
+          </li>
+          <li class="setting-washing-fabric-type">
+            <a class="fabric-type-link" href="#">Denim</a>
+          </li>
+          <li class="setting-washing-fabric-type">
+            <a class="fabric-type-link" href="#">Silk</a>
+          </li>
+          <li class="setting-washing-fabric-type">
+            <a class="fabric-type-link" href="#">Line</a>
+          </li>
+        </ul>
+        <p class="fabric-type-link-content">Loads should be under 8 pounds. It is recommended using neutral detergent to prevent<br> damage to the cloth and to improve the washing results.</p>
+        <div class="washing-bottom">
+          <button class="left-button button"><div class="triangle-left"></div></button>
+          <div class="setting">
+            <dl class="setting-lists">
+              <div class="setting-lists-item timer">
+                <dt class="setting-list">Timer</dt>
+                <dd class="setting-list-item">45 min</dd>
+              </div>
+              <div class="setting-lists-item temperature">
+                <dt class="setting-list">Temperature</dt>
+                <dd class="setting-list-item">Cold</dd>
+              </div>
+              <div class="setting-lists-item load">
+                <dt class="setting-list">Load</dt>
+                <dd class="setting-list-item">Medium</dd>
+              </div>
+            </dl>
+            <button class="button-start">Start</button>
+          </div>
+          <button class="right-button button"><div class="triangle-right"></div></button>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+  <script src="js/main.js"></script>
 </body>
 </html>
